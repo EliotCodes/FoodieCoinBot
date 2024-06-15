@@ -7,6 +7,13 @@ const bot = new Bot(process.env.BOT_TOKEN);
 
 bot.command("start", require("./src/commands/startCommand"));
 
+bot.callbackQuery("howto", require("./src/callbacks/howtoCallback"));
+
+// bot.use((ctx) => {
+//     ctx.reply("I don't understand");
+//     console.log(ctx.message);
+//   });
+
 bot.start();
 
 console.log("bot running");
