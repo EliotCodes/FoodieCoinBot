@@ -6,6 +6,7 @@ const bot = new Bot(process.env.BOT_TOKEN);
 /* START COMMAND */
 
 bot.command("start", require("./src/commands/startCommand"));
+bot.callbackQuery("start", require("./src/commands/startCommand"));
 
 bot.callbackQuery("howto", require("./src/callbacks/howtoCallback"));
 

@@ -8,7 +8,9 @@ const startCommand = (ctx) => {
     "howto"
   );
 
-  const text = `Hey ${ctx.from.first_name}!\n\nWelcome to <b>FoodieCoin Bot</b>, get free <code>FOOD</code> tokens by completing simple tasks. Earn more by inviting friends!`;
+  const text = `Hey ${ctx.from.first_name}!\n\nWelcome to <b>FoodieCoin Bot</b>, get free <code>$FOOD</code> tokens by completing simple tasks. Earn more by inviting friends!`;
+ 
+  console.log(ctx);
   ctx.replyWithPhoto(
     "AgACAgQAAxkBAANxZmz6T76_AUjU6TWraS4N7BJB_PgAAgzBMRtPZGlTZ4b_o_CDoOoBAAMCAAN5AAM1BA",
     {

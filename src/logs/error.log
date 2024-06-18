@@ -1,0 +1,2 @@
+{"description":"Bad Request: chat not found","error_code":400,"level":"error","method":"getChatMember","name":"GrammyError","ok":false,"parameters":{},"payload":{"chat_id":"Botswave","user_id":6956675302}}
+{"description":"Bad Request: chat not found","error_code":400,"level":"error","method":"getChatMember","name":"GrammyError","ok":false,"parameters":{},"payload":{"chat_id":"Botswave","user_id":6956675302}}
